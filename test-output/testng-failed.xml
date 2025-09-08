@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="reportName" value="APITestingPage_UI.html"/>
+  <test thread-count="5" name="APITestingPage_UI - Edge(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.E_Commerce_Web_App.tests.APITestingPageTest_UI">
+        <methods>
+          <include name="verifyProductsIconDisplayed"/>
+          <include name="verifyApiList11LinkDisplayed"/>
+          <include name="verifyApiList12LinkDisplayed"/>
+          <include name="verifyApiList13LinkDisplayed"/>
+          <include name="verifyApiList14LinkDisplayed"/>
+          <include name="verifyApiList7LinkDisplayed"/>
+          <include name="verifyCartIconDisplayed"/>
+          <include name="verifyHomeIconDisplayed"/>
+          <include name="verifyLogoDisplayed"/>
+          <include name="flushExtent"/>
+          <include name="verifyVideoTutorialsIconDisplayed"/>
+          <include name="verifyApiList4LinkDisplayed"/>
+          <include name="setupExtent"/>
+          <include name="verifyApiList6LinkDisplayed"/>
+          <include name="verifyApiList5LinkDisplayed"/>
+          <include name="verifyApiTestingIconDisplayed"/>
+          <include name="verifyApiList3LinkDisplayed"/>
+          <include name="verifyApiList10LinkDisplayed"/>
+          <include name="verifyApiList1LinkDisplayed"/>
+          <include name="verifyApiList2LinkDisplayed"/>
+          <include name="verifySignupLoginIconDisplayed"/>
+          <include name="setupDriver"/>
+          <include name="verifyFeedbackSectionDisplayed"/>
+          <include name="verifyApilistSectionDisplayed"/>
+          <include name="verifyApiList9LinkDisplayed"/>
+          <include name="verifyApiList8LinkDisplayed"/>
+          <include name="verifyContactUsIconDisplayed"/>
+          <include name="teardownDriver"/>
+          <include name="verifyFeedbackEmailDisplayed"/>
+        </methods>
+      </class> <!-- com.E_Commerce_Web_App.tests.APITestingPageTest_UI -->
+    </classes>
+  </test> <!-- APITestingPage_UI - Edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->

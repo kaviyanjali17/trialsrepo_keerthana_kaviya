@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="reportName" value="Registeration_Testcases.html"/>
+<!-- Chrome Execution -->
+    <test name="Registration - Chrome">
+      <parameter name="browser" value="chrome"/>
+      <classes>
+      <class name="com.E_Commerce_Web_App.tests.CompleteRegisterPageTest_Func"/>    
+    </classes>
+  </test> 
+<!-- Edge Execution -->
+    <test name="Registration - Edge">
+      <parameter name="browser" value="edge"/>
+      <classes>
+      <class name="com.E_Commerce_Web_App.tests.CompleteRegisterPageTest_Func"/>    
+    </classes>
+  </test> 
+</suite> <!-- Suite -->

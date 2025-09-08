@@ -1,0 +1,1785 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sep 7, 2025 02:25:13 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">chrome</a><a class="dropdown-item" href="#">edge</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="chrome"
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Execution on Browser: chrome</p>
+            <p class="text-sm">
+              <span>2:25:13 am</span> / <span>00:00:02:518</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Execution on Browser: chrome</h5>
+<span class='badge badge-success'>09.07.2025 2:25:13 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:16 am</span>
+<span class='badge badge-default'>00:00:02:518</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:25:13 am</td>
+        <td>
+          Initializing WebDriver for: chrome
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:25:16 am</td>
+        <td>
+          Browser launched successfully: chrome
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Browser Launch</p>
+            <p class="text-sm">
+              <span>2:25:18 am</span> / <span>00:00:00:254</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Browser Launch</h5>
+<span class='badge badge-success'>09.07.2025 2:25:18 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:19 am</span>
+<span class='badge badge-default'>00:00:00:254</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\BrowserLaunch_20250907_022518.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\BrowserLaunch_20250907_022518.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:18 am</td>
+        <td>
+          Browser launched successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Contact Us Icon</p>
+            <p class="text-sm">
+              <span>2:25:19 am</span> / <span>00:00:02:604</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Contact Us Icon</h5>
+<span class='badge badge-success'>09.07.2025 2:25:19 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:21 am</span>
+<span class='badge badge-default'>00:00:02:604</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\ContactUsPage_20250907_022521.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\ContactUsPage_20250907_022521.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:21 am</td>
+        <td>
+          Contact Us icon working and form displayed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Enter Name in Contact Form</p>
+            <p class="text-sm">
+              <span>2:25:23 am</span> / <span>00:00:00:365</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Enter Name in Contact Form</h5>
+<span class='badge badge-success'>09.07.2025 2:25:23 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:23 am</span>
+<span class='badge badge-default'>00:00:00:365</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterName_20250907_022523.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterName_20250907_022523.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:23 am</td>
+        <td>
+          Name entered successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Enter Subject in Contact Form</p>
+            <p class="text-sm">
+              <span>2:25:23 am</span> / <span>00:00:00:417</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Enter Subject in Contact Form</h5>
+<span class='badge badge-success'>09.07.2025 2:25:23 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:23 am</span>
+<span class='badge badge-default'>00:00:00:417</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterSubject_20250907_022523.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterSubject_20250907_022523.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:23 am</td>
+        <td>
+          Subject entered successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Enter Message in Contact Form</p>
+            <p class="text-sm">
+              <span>2:25:24 am</span> / <span>00:00:00:323</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Enter Message in Contact Form</h5>
+<span class='badge badge-success'>09.07.2025 2:25:24 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:24 am</span>
+<span class='badge badge-default'>00:00:00:323</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterMessage_20250907_022524.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterMessage_20250907_022524.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:24 am</td>
+        <td>
+          Message entered successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Upload File in Contact Form</p>
+            <p class="text-sm">
+              <span>2:25:24 am</span> / <span>00:00:00:177</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Upload File in Contact Form</h5>
+<span class='badge badge-success'>09.07.2025 2:25:24 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:24 am</span>
+<span class='badge badge-default'>00:00:00:177</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\UploadFile_20250907_022524.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\UploadFile_20250907_022524.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:24 am</td>
+        <td>
+          File uploaded successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Contact Form with Invalid Email</p>
+            <p class="text-sm">
+              <span>2:25:24 am</span> / <span>00:00:01:365</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Contact Form with Invalid Email</h5>
+<span class='badge badge-success'>09.07.2025 2:25:24 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:25 am</span>
+<span class='badge badge-default'>00:00:01:365</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EmailInvalid_20250907_022525.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EmailInvalid_20250907_022525.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:25 am</td>
+        <td>
+          Proper validation message displayed for invalid email: Please include an '@' in the email address. 'kaviya.com' is missing an '@'.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Contact Form with Empty Email</p>
+            <p class="text-sm">
+              <span>2:25:26 am</span> / <span>00:00:00:981</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Contact Form with Empty Email</h5>
+<span class='badge badge-success'>09.07.2025 2:25:26 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:27 am</span>
+<span class='badge badge-default'>00:00:00:981</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EmailEmpty_20250907_022527.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EmailEmpty_20250907_022527.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:27 am</td>
+        <td>
+          Proper validation message displayed for empty email: Please fill in this field.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Enter Email in Contact Form</p>
+            <p class="text-sm">
+              <span>2:25:27 am</span> / <span>00:00:00:452</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Enter Email in Contact Form</h5>
+<span class='badge badge-success'>09.07.2025 2:25:27 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:27 am</span>
+<span class='badge badge-default'>00:00:00:452</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterEmail_20250907_022527.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterEmail_20250907_022527.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:27 am</td>
+        <td>
+          Email entered successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Submit Contact Form</p>
+            <p class="text-sm">
+              <span>2:25:27 am</span> / <span>00:00:00:729</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Submit Contact Form</h5>
+<span class='badge badge-success'>09.07.2025 2:25:27 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:28 am</span>
+<span class='badge badge-default'>00:00:00:729</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubmitForm_20250907_022528.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubmitForm_20250907_022528.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:28 am</td>
+        <td>
+          Form submitted successfully and success message displayed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Subscription with Valid Email</p>
+            <p class="text-sm">
+              <span>2:25:28 am</span> / <span>00:00:00:996</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Subscription with Valid Email</h5>
+<span class='badge badge-success'>09.07.2025 2:25:28 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:29 am</span>
+<span class='badge badge-default'>00:00:00:996</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubscriptionValid_20250907_022529.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubscriptionValid_20250907_022529.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:29 am</td>
+        <td>
+          Subscription working with valid email
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Subscription with Invalid Email</p>
+            <p class="text-sm">
+              <span>2:25:29 am</span> / <span>00:00:00:526</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Subscription with Invalid Email</h5>
+<span class='badge badge-success'>09.07.2025 2:25:29 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:30 am</span>
+<span class='badge badge-default'>00:00:00:526</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubscriptionInvalid_20250907_022530.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubscriptionInvalid_20250907_022530.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:30 am</td>
+        <td>
+          Proper validation message displayed for invalid subscription email: Please include an '@' in the email address. 'testgmail.com' is missing an '@'.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Subscription with Empty Email</p>
+            <p class="text-sm">
+              <span>2:25:30 am</span> / <span>00:00:00:423</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Subscription with Empty Email</h5>
+<span class='badge badge-success'>09.07.2025 2:25:30 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:30 am</span>
+<span class='badge badge-default'>00:00:00:423</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubscriptionEmpty_20250907_022530.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubscriptionEmpty_20250907_022530.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:30 am</td>
+        <td>
+          Proper validation message displayed for empty subscription email: Please fill in this field.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Navigation to Home</p>
+            <p class="text-sm">
+              <span>2:25:30 am</span> / <span>00:00:02:862</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Navigation to Home</h5>
+<span class='badge badge-success'>09.07.2025 2:25:30 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:33 am</span>
+<span class='badge badge-default'>00:00:02:862</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\HomePage_20250907_022533.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\HomePage_20250907_022533.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:33 am</td>
+        <td>
+          Navigated back to Home Page
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Scroll To Top Button</p>
+            <p class="text-sm">
+              <span>2:25:33 am</span> / <span>00:00:00:816</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Scroll To Top Button</h5>
+<span class='badge badge-success'>09.07.2025 2:25:33 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:34 am</span>
+<span class='badge badge-default'>00:00:00:816</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\ScrollToTop_20250907_022533.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\ScrollToTop_20250907_022533.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:33 am</td>
+        <td>
+          Scroll to top button working
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:25:34 am</td>
+        <td>
+          Browser closed: chrome
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag="edge"
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Execution on Browser: edge</p>
+            <p class="text-sm">
+              <span>2:25:34 am</span> / <span>00:00:01:796</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Execution on Browser: edge</h5>
+<span class='badge badge-success'>09.07.2025 2:25:34 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:36 am</span>
+<span class='badge badge-default'>00:00:01:796</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">edge</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:25:34 am</td>
+        <td>
+          Initializing WebDriver for: edge
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:25:36 am</td>
+        <td>
+          Browser launched successfully: edge
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Browser Launch</p>
+            <p class="text-sm">
+              <span>2:25:39 am</span> / <span>00:00:00:253</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Browser Launch</h5>
+<span class='badge badge-success'>09.07.2025 2:25:39 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:40 am</span>
+<span class='badge badge-default'>00:00:00:253</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\BrowserLaunch_20250907_022539.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\BrowserLaunch_20250907_022539.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:39 am</td>
+        <td>
+          Browser launched successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Contact Us Icon</p>
+            <p class="text-sm">
+              <span>2:25:40 am</span> / <span>00:00:02:037</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Contact Us Icon</h5>
+<span class='badge badge-success'>09.07.2025 2:25:40 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:42 am</span>
+<span class='badge badge-default'>00:00:02:037</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\ContactUsPage_20250907_022542.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\ContactUsPage_20250907_022542.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:42 am</td>
+        <td>
+          Contact Us icon working and form displayed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Enter Name in Contact Form</p>
+            <p class="text-sm">
+              <span>2:25:42 am</span> / <span>00:00:00:456</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Enter Name in Contact Form</h5>
+<span class='badge badge-success'>09.07.2025 2:25:42 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:42 am</span>
+<span class='badge badge-default'>00:00:00:456</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterName_20250907_022542.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterName_20250907_022542.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:42 am</td>
+        <td>
+          Name entered successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Enter Subject in Contact Form</p>
+            <p class="text-sm">
+              <span>2:25:42 am</span> / <span>00:00:00:366</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Enter Subject in Contact Form</h5>
+<span class='badge badge-success'>09.07.2025 2:25:42 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:43 am</span>
+<span class='badge badge-default'>00:00:00:366</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterSubject_20250907_022543.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterSubject_20250907_022543.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:43 am</td>
+        <td>
+          Subject entered successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Enter Message in Contact Form</p>
+            <p class="text-sm">
+              <span>2:25:43 am</span> / <span>00:00:00:363</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Enter Message in Contact Form</h5>
+<span class='badge badge-success'>09.07.2025 2:25:43 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:43 am</span>
+<span class='badge badge-default'>00:00:00:363</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterMessage_20250907_022543.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterMessage_20250907_022543.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:43 am</td>
+        <td>
+          Message entered successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Upload File in Contact Form</p>
+            <p class="text-sm">
+              <span>2:25:43 am</span> / <span>00:00:00:202</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Upload File in Contact Form</h5>
+<span class='badge badge-success'>09.07.2025 2:25:43 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:43 am</span>
+<span class='badge badge-default'>00:00:00:202</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\UploadFile_20250907_022543.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\UploadFile_20250907_022543.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:43 am</td>
+        <td>
+          File uploaded successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Contact Form with Invalid Email</p>
+            <p class="text-sm">
+              <span>2:25:43 am</span> / <span>00:00:01:607</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Contact Form with Invalid Email</h5>
+<span class='badge badge-success'>09.07.2025 2:25:43 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:45 am</span>
+<span class='badge badge-default'>00:00:01:607</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EmailInvalid_20250907_022545.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EmailInvalid_20250907_022545.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:45 am</td>
+        <td>
+          Proper validation message displayed for invalid email: Please include an '@' in the email address. 'kaviya.com' is missing an '@'.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Contact Form with Empty Email</p>
+            <p class="text-sm">
+              <span>2:25:45 am</span> / <span>00:00:01:437</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Contact Form with Empty Email</h5>
+<span class='badge badge-success'>09.07.2025 2:25:45 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:47 am</span>
+<span class='badge badge-default'>00:00:01:437</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EmailEmpty_20250907_022546.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EmailEmpty_20250907_022546.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:47 am</td>
+        <td>
+          Proper validation message displayed for empty email: Please fill in this field.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Enter Email in Contact Form</p>
+            <p class="text-sm">
+              <span>2:25:47 am</span> / <span>00:00:00:491</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Enter Email in Contact Form</h5>
+<span class='badge badge-success'>09.07.2025 2:25:47 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:47 am</span>
+<span class='badge badge-default'>00:00:00:491</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterEmail_20250907_022547.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\EnterEmail_20250907_022547.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:47 am</td>
+        <td>
+          Email entered successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Submit Contact Form</p>
+            <p class="text-sm">
+              <span>2:25:47 am</span> / <span>00:00:00:446</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Submit Contact Form</h5>
+<span class='badge badge-success'>09.07.2025 2:25:47 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:48 am</span>
+<span class='badge badge-default'>00:00:00:446</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubmitForm_20250907_022547.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubmitForm_20250907_022547.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:47 am</td>
+        <td>
+          Form submitted successfully and success message displayed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Subscription with Valid Email</p>
+            <p class="text-sm">
+              <span>2:25:48 am</span> / <span>00:00:00:698</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Subscription with Valid Email</h5>
+<span class='badge badge-success'>09.07.2025 2:25:48 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:48 am</span>
+<span class='badge badge-default'>00:00:00:698</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubscriptionValid_20250907_022548.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubscriptionValid_20250907_022548.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:48 am</td>
+        <td>
+          Subscription working with valid email
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Subscription with Invalid Email</p>
+            <p class="text-sm">
+              <span>2:25:48 am</span> / <span>00:00:00:522</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Subscription with Invalid Email</h5>
+<span class='badge badge-success'>09.07.2025 2:25:48 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:49 am</span>
+<span class='badge badge-default'>00:00:00:522</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubscriptionInvalid_20250907_022549.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubscriptionInvalid_20250907_022549.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:49 am</td>
+        <td>
+          Proper validation message displayed for invalid subscription email: Please include an '@' in the email address. 'testgmail.com' is missing an '@'.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Subscription with Empty Email</p>
+            <p class="text-sm">
+              <span>2:25:49 am</span> / <span>00:00:00:458</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Subscription with Empty Email</h5>
+<span class='badge badge-success'>09.07.2025 2:25:49 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:49 am</span>
+<span class='badge badge-default'>00:00:00:458</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubscriptionEmpty_20250907_022549.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\SubscriptionEmpty_20250907_022549.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:49 am</td>
+        <td>
+          Proper validation message displayed for empty subscription email: Please fill in this field.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Navigation to Home</p>
+            <p class="text-sm">
+              <span>2:25:49 am</span> / <span>00:00:03:189</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Navigation to Home</h5>
+<span class='badge badge-success'>09.07.2025 2:25:49 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:53 am</span>
+<span class='badge badge-default'>00:00:03:189</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\HomePage_20250907_022552.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\HomePage_20250907_022552.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:52 am</td>
+        <td>
+          Navigated back to Home Page
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="32"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Scroll To Top Button</p>
+            <p class="text-sm">
+              <span>2:25:53 am</span> / <span>00:00:00:877</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify Scroll To Top Button</h5>
+<span class='badge badge-success'>09.07.2025 2:25:53 am</span>
+<span class='badge badge-danger'>09.07.2025 2:25:54 am</span>
+<span class='badge badge-default'>00:00:00:877</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\ScrollToTop_20250907_022553.png' src="C:\Users\HP\eclipse-workspace\E_Commerce_Web_App\src\test\resources\E_Commerce_Web_App_Screenshots\ScrollToTop_20250907_022553.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:25:53 am</td>
+        <td>
+          Scroll to top button working
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:25:54 am</td>
+        <td>
+          Browser closed: edge
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">chrome</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>chrome</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>02:25:13 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Test Execution on Browser: chrome</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">edge</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>edge</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>02:25:34 am</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>Test Execution on Browser: edge</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sep 7, 2025 02:25:13 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sep 7, 2025 02:25:54 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>32</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>32</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='83%'><b>30</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>6</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Test Execution on Browser: chrome":2.518,"Verify Browser Launch":0.254,"Verify Contact Us Icon":2.604,"Enter Name in Contact Form":0.365,"Enter Subject in Contact Form":0.417,"Enter Message in Contact Form":0.323,"Upload File in Contact Form":0.177,"Verify Contact Form with Invalid Email":1.365,"Verify Contact Form with Empty Email":0.981,"Enter Email in Contact Form":0.452,"Submit Contact Form":0.729,"Verify Subscription with Valid Email":0.996,"Verify Subscription with Invalid Email":0.526,"Verify Subscription with Empty Email":0.423,"Verify Navigation to Home":2.862,"Verify Scroll To Top Button":0.816,"Test Execution on Browser: edge":1.796,"Verify Browser Launch":0.253,"Verify Contact Us Icon":2.037,"Enter Name in Contact Form":0.456,"Enter Subject in Contact Form":0.366,"Enter Message in Contact Form":0.363,"Upload File in Contact Form":0.202,"Verify Contact Form with Invalid Email":1.607,"Verify Contact Form with Empty Email":1.437,"Enter Email in Contact Form":0.491,"Submit Contact Form":0.446,"Verify Subscription with Valid Email":0.698,"Verify Subscription with Invalid Email":0.522,"Verify Subscription with Empty Email":0.458,"Verify Navigation to Home":3.189,"Verify Scroll To Top Button":0.877
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>chrome</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>edge</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 32,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 30,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 6
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
