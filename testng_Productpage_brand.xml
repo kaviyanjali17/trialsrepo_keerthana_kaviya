@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Productpage_brandcategory">
+    <classes>
+      <class name="com.automationexercise.tests.Productpage_Brandcategory"/>
+    </classes>
+  </test> <!-- Productpage_brandcategory -->
+</suite> <!-- Suite -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="UI_Homepage_page_TC8to11">
+    <classes>
+      <class name="com.automationexercise.tests.UI_Homepage_TC8to11"/>
+    </classes>
+  </test> <!-- UI_Homepage_page_TC8to11 -->
+</suite> <!-- Suite -->

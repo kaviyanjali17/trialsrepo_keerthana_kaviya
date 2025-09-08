@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [CrossBrowserSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="UI_homepage_edge(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.automationexercise.tests.UI_Homepage_chrome">
+        <methods>
+          <include name="setup"/>
+          <include name="flushReport"/>
+          <include name="teardown"/>
+          <include name="setupReport"/>
+          <include name="validateHomePageLoad"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.UI_Homepage_chrome -->
+    </classes>
+  </test> <!-- UI_homepage_edge(failed) -->
+  <test thread-count="5" parallel="tests" name="UI_homepage_chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.automationexercise.tests.UI_Homepage_chrome">
+        <methods>
+          <include name="setup"/>
+          <include name="flushReport"/>
+          <include name="teardown"/>
+          <include name="setupReport"/>
+          <include name="validateHomePageLoad"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.UI_Homepage_chrome -->
+    </classes>
+  </test> <!-- UI_homepage_chrome(failed) -->
+</suite> <!-- Failed suite [CrossBrowserSuite] -->
