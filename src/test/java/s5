@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="false" name="Suite">
-  <test name="Test">
-    <classes>
-      <class name="project.Based_impact_TC1"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
